@@ -1,0 +1,23 @@
+{
+  "name": "emojiurl",
+  "version": "1.0.0",
+  "description": "Add smiley emoji in the url",
+  "main": "emoji.js",
+  "scripts": {
+    "test": "standard emoji.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetanraj/emojiurl.git"
+  },
+  "keywords": [
+    "emoji",
+    "smiley"
+  ],
+  "author": "Chetan Raj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chetanraj/emojiurl/issues"
+  },
+  "homepage": "https://github.com/chetanraj/emojiurl#readme"
+}
