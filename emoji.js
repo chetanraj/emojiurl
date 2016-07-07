@@ -3,9 +3,13 @@ var URLEmoji = URLEmoji || {}
 URLEmoji.addEmojiToURL = function () {
   var urlemoji = ['😀', '😬', '😁', '😂', '😃', '😄', '😅', '😆', '😇', '😉', '😊', '🙂', '🙃', '😋', '😌', '😍', '😘', '😗', '😙', '😚', '😜', '😝', '😛', '🤑', '🤓', '😎', '🤗', '😏', '😶', '😐', '😑', '😒', '🙄', '🤔', '😳', '😞', '😟', '😠', '😡', '😔', '😕', '🙁', '😣', '😖', '😫', '😩', '😤', '😮', '😱', '😨', '😰', '😯', '😦', '😧', '😢', '😥', '😪', '😓', '😭', '😵', '😲', '🤐', '😷', '🤒', '🤕', '😴']
 
-  // Only Mac
-  if (navigator.userAgent.indexOf('Mac OS X') !== -1) {
+  // Debug - console.log(navigator.userAgent);
+  
+  if (navigator.userAgent.indexOf('Mac OS X') > 0) {
     var eNumber = Math.floor(Math.random() * (urlemoji.length - 1))
-    window.location.hash = urlemoji[eNumber]
+    window.location.hash = urlemoji[eNumber];
+  } else if(navigator.userAgent.indexOf('Windows') > 0){
+    var eNumber = Math.floor(Math.random() * (urlemoji.length - 1))
+    window.location.hash = urlemoji[eNumber];
   }
 }

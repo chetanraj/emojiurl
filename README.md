@@ -2,11 +2,12 @@
 
 Add smiley emoji in the url 😄
 
-> only works on Mac 😞
+> Works on Mac & Windows 😋
 
 As seen in
 
-![emoji in url screen](https://raw.githubusercontent.com/chetanraj/emojiurl/master/images/url.png)
+![emoji in url screen](https://raw.githubusercontent.com/eduardoervideira/emojiurl/master/images/url.png)
+![emoji in url screen](https://raw.githubusercontent.com/eduardoervideira/emojiurl/master/images/urlWindows.png)
 
 
 ### How to use
