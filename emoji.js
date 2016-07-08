@@ -1,11 +1,24 @@
+/**
+ * URLEmoji Object
+ * @type {Object}
+ */
 var URLEmoji = URLEmoji || {}
 
-URLEmoji.addEmojiToURL = function () {
-  var urlemoji = ['😀', '😬', '😁', '😂', '😃', '😄', '😅', '😆', '😇', '😉', '😊', '🙂', '🙃', '😋', '😌', '😍', '😘', '😗', '😙', '😚', '😜', '😝', '😛', '🤑', '🤓', '😎', '🤗', '😏', '😶', '😐', '😑', '😒', '🙄', '🤔', '😳', '😞', '😟', '😠', '😡', '😔', '😕', '🙁', '😣', '😖', '😫', '😩', '😤', '😮', '😱', '😨', '😰', '😯', '😦', '😧', '😢', '😥', '😪', '😓', '😭', '😵', '😲', '🤐', '😷', '🤒', '🤕', '😴']
+/**
+ * Array of available Emojis
+ * @type {Array}
+ */
+URLEmoji.emojis = ['😀', '😬', '😁', '😂', '😃', '😄', '😅', '😆', '😇', '😉', '😊', '🙂', '🙃', '😋', '😌', '😍', '😘', '😗', '😙', '😚', '😜', '😝', '😛', '🤑', '🤓', '😎', '🤗', '😏', '😶', '😐', '😑', '😒', '🙄', '🤔', '😳', '😞', '😟', '😠', '😡', '😔', '😕', '🙁', '😣', '😖', '😫', '😩', '😤', '😮', '😱', '😨', '😰', '😯', '😦', '😧', '😢', '😥', '😪', '😓', '😭', '😵', '😲', '🤐', '😷', '🤒', '🤕', '😴']
 
-  // Only Mac Chrome
-  if (/Chrome/.test(navigator.userAgent) && navigator.userAgent.indexOf('Mac OS X') !== -1) {
-    var eNumber = Math.floor(Math.random() * (urlemoji.length - 1))
-    window.location.hash = urlemoji[eNumber]
+/**
+ * Adds a random emoji to the url
+ */
+URLEmoji.addEmojiToURL = function () {
+  var acceptedBrowsers = /(Chrome|Firefox)/i;
+
+  // Check Accepted Browsers
+  if (acceptedBrowsers.test(navigator.userAgent) && navigator.userAgent.indexOf('Mac OS X') !== -1) {
+    var eNumber = Math.floor(Math.random() * (this.emojis.length - 1))
+    window.location.hash = this.emojis[eNumber]
   }
 }
