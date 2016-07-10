@@ -23,3 +23,9 @@ then call
   URLEmoji.addEmojiToURL();
 ```
 > Everytime you reload a new smiley emoji appears on the url 😉
+
+
+## TO-DO
+
+- [ ] Make the emoji category wise. ```URLEmoji.addEmojiToURL('smiley')```
+- [ ] CDN - emoji.js
