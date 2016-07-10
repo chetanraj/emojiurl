@@ -17,7 +17,12 @@ Add the emoji.js file path to the of your document head:
 <script src="path/to/emoji.js">
 ```
 
-then call
+or use the CDN 😉
+```js
+<script src="https://npmcdn.com/emojiurl@1.4.0">
+```
+
+then invoke
 
 ```js
   URLEmoji.addEmojiToURL();
@@ -27,5 +32,5 @@ then call
 
 ## TO-DO
 
-- [ ] Make the emoji category wise. ```URLEmoji.addEmojiToURL('smiley')```
+- [x] Make the emoji category wise. ```URLEmoji.addEmojiToURL('smiley')```
 - [ ] CDN - emoji.js

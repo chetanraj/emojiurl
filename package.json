@@ -1,6 +1,6 @@
 {
   "name": "emojiurl",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Add smiley emoji in the url",
   "main": "emoji.js",
   "scripts": {
