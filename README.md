@@ -4,6 +4,8 @@ Add smiley emoji in the url 😄
 
 > only works on Mac 😞
 
+[![Build Status](https://travis-ci.org/chetanraj/emojiurl.svg?branch=master)](https://travis-ci.org/chetanraj/emojiurl)
+
 As seen in
 
 ![emoji in url screen](https://raw.githubusercontent.com/chetanraj/emojiurl/master/images/url.png)

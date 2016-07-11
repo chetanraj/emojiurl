@@ -14,7 +14,7 @@ URLEmoji.emojis = ['😀', '😬', '😁', '😂', '😃', '😄', '😅', '😆
  * Adds a random emoji to the url
  */
 URLEmoji.addEmojiToURL = function () {
-  var acceptedBrowsers = /(Chrome|Firefox)/i;
+  var acceptedBrowsers = /(Chrome|Firefox)/i
 
   // Check Accepted Browsers
   if (acceptedBrowsers.test(navigator.userAgent) && navigator.userAgent.indexOf('Mac OS X') !== -1) {
