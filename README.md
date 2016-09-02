@@ -18,7 +18,7 @@ Add the emoji.js file path to the of your document head:
 
 or use the CDN 😉
 ```js
-<script src="https://npmcdn.com/emojiurl@1.4.0">
+<script src="https://unpkg.com/emojiurl@1.4.0">
 ```
 
 then invoke
