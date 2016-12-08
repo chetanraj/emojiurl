@@ -2,6 +2,9 @@
 
 Add smiley emoji in the url 😄
 
+
+[![emojiurl](https://img.shields.io/badge/emojiurl-%F0%9F%98%8D%20%F0%9F%98%AE-FFDD67.svg?style=flat-square)](https://github.com/chetanraj/emojiurl) [![Made With Love](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/chetanraj/emojiurl)
+
 > only works on Mac 😞
 
 As seen in
